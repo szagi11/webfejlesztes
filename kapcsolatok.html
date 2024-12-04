@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="nav-text">Bean & Bliss Café</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a href="rolunk.html" class="nav-link">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menü</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kaveink.html" class="nav-link">Kávéink</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galeria.html" class="nav-link">Galéria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kapcsolatok.html" class="nav-link current">Kapcsolat</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="contact-section">
+                <h2 class="section-title">Lépj velünk kapcsolatba</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <p>Kávéház utca 12, Budapest</p>
+                        </li>
+                        <li class="contact-info">
+                            <p>info@beanandblisscoffee.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <p>06 1 234 5678</p>
+                        </li>
+                        <li class="contact-info">
+                            <p>Hétfő-Péntek: 9:00-18:00</p>
+                        </li>
+                        <li class="contact-info">
+                            <p>Szombat-Vasárnap: 10:00-19:30</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div class="loyalty-program">
+                    <h2>Törzsvendégprogram Regisztráció</h2>
+                    <p class="loyalty-info">
+                        Csatlakozz törzsvendégprogramunkhoz, és élvezd az exkluzív kedvezményeket! Törzsvendégeink számára különleges ajánlatokat, ajándék italokat és elsőbbségi értesítéseket kínálunk a közelgő eseményeinkről.  
+                        Töltsd ki az alábbi űrlapot, és légy része a Bean & Bliss Café közösségének!
+                    </p>
+                
+                    <form method="post" action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" id="registration-form" class="registration-form">
+                        <div class="form-group">
+                            <label for="fullName">Teljes név:</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Írd be a neved" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail cím:</label>
+                            <input type="email" id="email" name="email" placeholder="Írd be az e-mail címed" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefonszám:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Írd be a telefonszámod" value="06-">
+                        </div>
+                        <div class="form-group">
+                            <label for="birthday">Születési dátum:</label>
+                            <input type="date" id="birthday" name="birthday">
+                        </div>
+                        <div class="form-group">
+                            <label for="preferences">Milyen típusú kávékat kedvelsz leginkább?</label>
+                            <textarea id="preferences" name="preferences" rows="3" placeholder="Írd le kedvenc ízeidet (pl. latte, espresso, mocha)"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">Elfogadom a <a href="#">Felhasználási Feltételeket</a> és az <a href="#">Adatvédelmi Szabályzatot</a>.</label>
+                        </div>
+                        <button type="submit" class="submit-button">Regisztráció</button>
+                    </form>                    
+                </div>
+        </div>
+        <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
+        <script src="jquery-validation-1.19.5" type="text/javascript" charset="utf-8"></script>
+        <script src="script2.js"></script>
+    </main>
+    <footer class="footer-section">
+        <div class="section-content">
+            <div class="copyright-text">© 2024 Bean & Bliss Café</div>
+            <div class="social-link-list">
+                <a href="https://www.facebook.com/" class="social-link"> <img src="képek\facebook-app-round-white-icon.webp" alt="facebook logo"></a>
+                <a href="https://www.instagram.com/" class="social-link"><img src="képek\instagram-new.png" alt="instagram logo"></a>
+                <a href="https://www.x.com" class="social-link"><img src="képek\X_logo_2023_(white).png" alt="twitter logo"></a>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>

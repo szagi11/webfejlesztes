@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="nav-text">Bean & Bliss Café</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a href="rolunk.html" class="nav-link current">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menü</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kaveink.html" class="nav-link">Kávéink</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galeria.html" class="nav-link">Galéria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kapcsolatok.html" class="nav-link">Kapcsolat</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="rolunk-section section-content">
+            <div class="rolunk-text">
+                <h2 class="rolunk-title">Üdvözlünk a Bean & Bliss Caféban!</h2>
+                <h3 class="rolunk-subtitle">Szeretettel várunk, hogy megismerd a helyet, ahol a kávézás művészetté válik, és minden vendégünk otthon érezheti magát.</h3>
+                <p class="rolunk-description">Kávézónk története egy egyszerű, de szenvedélyes álomból indult: létrehozni egy olyan helyet, ahol a prémium minőségű kávé, a barátságos légkör és a közösség szeretete találkozik. Gondosan válogatott kávészemekből készítjük italkülönlegességeinket, amelyek minden egyes kortyban tükrözik a kávé iránti rajongásunkat.</p>
+                <p class="rolunk-description">De a Bean & Bliss nem csak a kávéról szól! Ízletes süteményeink, helyi alapanyagokból készült harapnivalóink és otthonos atmoszféránk mind arra várnak, hogy még különlegesebbé tegyék a látogatásodat. Legyen szó egy reggeli felfrissülésről, baráti találkozóról, vagy egy nyugodt pillanatról egy jó könyv társaságában – nálunk mindig megtalálod a helyed.</p>
+                <h4 class="rolunk-description">Különleges szolgáltatások</h4>
+                <p class="rolunk-description">Kávézónkban nemcsak finom italokat és ételeket kínálunk, hanem különleges élményeket is. Hétvégenként élő zenei estekkel várunk, ahol helyi előadók teremtik meg a hangulatot. Kínálunk kézműves workshopokat is, ahol megtanulhatod például a latte art vagy a házi sütikészítés fortélyait.</p>
+                <h4 class="rolunk-description">Fenntarthatóság és környezetvédelem</h4>
+                <p class="rolunk-description">Számunkra fontos, hogy a kávézás ne csak ízletes, hanem környezettudatos is legyen. Kávéink és alapanyagaink fenntartható gazdálkodásból származnak, és arra törekszünk, hogy minimalizáljuk az ökológiai lábnyomunkat. Büszkék vagyunk arra, hogy újrahasznosított csomagolóanyagokat használunk, és vásárlóinkat is ösztönözzük a saját pohár hozására.</p>
+                <h4 class="rolunk-description">Törzsvendégprogram</h4>
+                <p class="rolunk-description">Vendégeink hűsége számunkra mindennél többet jelent. Csatlakozz törzsvendégprogramunkhoz, és élvezd az exkluzív kedvezményeket, ajándék italokat, és elsőként értesülj a különleges eseményeinkről!</p>
+                <p class="rolunk-description">Folyamatosan szervezünk eseményeket, workshopokat, és mindig nyitottak vagyunk vendégeink visszajelzéseire. Vendégeink elégedettsége és élménye a legfontosabb számunkra.</p>
+                <p class="rolunk-description">Lépj be hozzánk, és tapasztald meg, mit jelent a Bean & Bliss Café élménye! Érezd magad otthon, és fedezd fel a kávézás új dimenzióit.<a href="kapcsolatok.html" class="rolunk-details"> Kattints ide a részletekért</a></p>
+            </div> 
+            <div class="quiz-container">
+                <h2 class="quiz-title">Találd meg a hozzád illő kávét!</h2>
+                <form id="coffeeQuiz">
+                    <div class="question">
+                        <h3 class="quiz-question">1. Hogyan szereted a kávédat?</h3>
+                        <label><input type="radio" name="q1" value="espresso"> Erős és intenzív</label>
+                        <label><input type="radio" name="q1" value="latte"> Krémes és lágy</label>
+                        <label><input type="radio" name="q1" value="americano"> Enyhén híg</label>
+                        <label><input type="radio" name="q1" value="mocha"> Édes, csokis</label>
+                    </div>
+                    <div class="question">
+                        <h3 class="quiz-question">2. Mikor szoktál kávét inni?</h3>
+                        <label><input type="radio" name="q2" value="espresso"> Reggel, hogy felébredjek</label>
+                        <label><input type="radio" name="q2" value="latte"> Délután, hogy kényeztessem magam</label>
+                        <label><input type="radio" name="q2" value="americano"> Napközben, hogy éber maradjak</label>
+                        <label><input type="radio" name="q2" value="mocha"> Desszert helyett</label>
+                    </div>
+                    <div class="question">
+                        <h3 class="quiz-question">3. Mennyire kedveled az édes ízeket?</h3>
+                        <label><input type="radio" name="q3" value="mocha"> Nagyon, minél édesebb, annál jobb</label>
+                        <label><input type="radio" name="q3" value="latte"> Inkább enyhén édes</label>
+                        <label><input type="radio" name="q3" value="americano"> Nem szeretem az édes ízeket</label>
+                        <label><input type="radio" name="q3" value="espresso"> Egyáltalán nem</label>
+                    </div>
+                    <div class="question">
+                        <h3 class="quiz-question">4. Mit tartasz a legfontosabbnak egy kávéban?</h3>
+                        <label><input type="radio" name="q4" value="espresso"> Az intenzív ízt</label>
+                        <label><input type="radio" name="q4" value="latte"> A krémességet</label>
+                        <label><input type="radio" name="q4" value="americano"> Az egyszerűséget</label>
+                        <label><input type="radio" name="q4" value="mocha"> A különleges ízesítéseket</label>
+                    </div>
+                    <button type="button" id="submitQuiz" class="submitQuiz">Eredmény</button>
+                </form>
+                <div id="result" class="result"></div>
+            </div>
+            
+        </section>
+        <script src="script.js"></script>
+    </main>
+        <footer class="footer-section">
+            <div class="section-content">
+                <div class="copyright-text">© 2024 Bean & Bliss Café</div>
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/" class="social-link"> <img src="képek\facebook-app-round-white-icon.webp" alt="facebook logo"></a>
+                    <a href="https://www.instagram.com/" class="social-link"><img src="képek\instagram-new.png" alt="instagram logo"></a>
+                    <a href="https://www.x.com" class="social-link"><img src="képek\X_logo_2023_(white).png" alt="twitter logo"></a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

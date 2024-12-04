@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick-theme.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="nav-text">Bean & Bliss Café</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a href="rolunk.html" class="nav-link">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menü</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kaveink.html" class="nav-link">Kávéink</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galeria.html" class="nav-link current">Galéria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kapcsolatok.html" class="nav-link">Kapcsolat</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="gallery-section">
+                <h2>Fedezd fel a Bean & Bliss Café világát!</h2>
+                <h3>Kávézónk nemcsak az ízekről szól, hanem a hangulatokról, az élményekről és az emlékekről is. Ebben a galériában bepillantást nyerhetsz mindabba, amiért vendégeink szeretnek hozzánk ellátogatni.</h3>
+            </div>
+        <div class="center slider">
+            <div><img src="képek\easy-homemade-pumpkin-coffee-creamer-2.jpg" alt="kep2" class="gallery-img"></div>
+            <div><img src="képek\images.jpg" alt="kep1" class="gallery-img"></div>
+            <div><img src="képek\premium_photo-1674327105076-36c4419864cf.jpg" alt="kep3" class="gallery-img"></div>
+            <div><img src="képek\coffee-worlds-biggest-source-of-antioxidants-1296x728-feature_0-800x728.avif" alt="kep4" class="gallery-img"></div>
+            <div><img src="képek\coffee-shop-1149155_1920.webp" alt="kep5" class="gallery-img"></div>
+            <div><img src="képek\Coffee-Cake-Cappuccino-Frosting_730px-featured.webp" alt="kep6" class="gallery-img"></div>
+            <div><img src="képek\gemischter-salat-mit-dressing.webp" alt="kep7" class="gallery-img"></div>
+        </div>
+        
+            
+        <div class="gallery-section">
+            <p>Kávéink és süteményeink prémium kínálatát, amelyekkel nap mint nap örömet szerzünk.
+            A barátságos és otthonos atmoszférát, ahol mindig szívesen látunk.</p>
+            <p>Az eseményeinket, workshopjainkat és különleges pillanatainkat.</p>
+            <p>Legyen szó egy baráti kávézásról, egy csendes olvasósarokról, vagy egy inspiráló találkozóról, a Bean & Bliss Café a tökéletes hely mindezekhez.</p>
+            <p>Merülj el a képek világában, és gyere el hozzánk személyesen is, hogy részese lehess ennek az élménynek!</p>
+        </div>  
+        </section>
+
+    
+        <script src="jquery-3.7.1.min.js" type="text/javascript"></script>
+        <script src="slick-1.8.1\slick\slick.js" type="text/javascript" charset="utf-8"></script>
+    
+        <script type="text/javascript">
+            $(document).ready(function() {
+    
+                $(".center").slick({
+                    dots: true,
+                    infinite: true,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: false,
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                arrows: false,
+                                centerPadding: '60px',
+                                slidesToShow: 3
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                arrows: false,
+                                centerPadding: '60px',
+                                slidesToShow: 1
+                            }
+                        }
+                    ]
+                });
+    
+    
+            });
+        </script>
+    </main>
+    <footer class="footer-section">
+        <div class="section-content">
+            <div class="copyright-text">© 2024 Bean & Bliss Café</div>
+            <div class="social-link-list">
+                <a href="https://www.facebook.com/" class="social-link"> <img src="képek\facebook-app-round-white-icon.webp" alt="facebook logo"></a>
+                <a href="https://www.instagram.com/" class="social-link"><img src="képek\instagram-new.png" alt="instagram logo"></a>
+                <a href="https://www.x.com" class="social-link"><img src="képek\X_logo_2023_(white).png" alt="twitter logo"></a>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
